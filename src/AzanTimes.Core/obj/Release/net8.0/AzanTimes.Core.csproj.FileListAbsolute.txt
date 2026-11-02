@@ -1,0 +1,9 @@
+C:\Users\technical1\Projects\AzanTimes\src\AzanTimes.Core\bin\Release\net8.0\AzanTimes.Core.deps.json
+C:\Users\technical1\Projects\AzanTimes\src\AzanTimes.Core\bin\Release\net8.0\AzanTimes.Core.dll
+C:\Users\technical1\Projects\AzanTimes\src\AzanTimes.Core\obj\Release\net8.0\AzanTimes.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\technical1\Projects\AzanTimes\src\AzanTimes.Core\obj\Release\net8.0\AzanTimes.Core.AssemblyInfoInputs.cache
+C:\Users\technical1\Projects\AzanTimes\src\AzanTimes.Core\obj\Release\net8.0\AzanTimes.Core.AssemblyInfo.cs
+C:\Users\technical1\Projects\AzanTimes\src\AzanTimes.Core\obj\Release\net8.0\AzanTimes.Core.csproj.CoreCompileInputs.cache
+C:\Users\technical1\Projects\AzanTimes\src\AzanTimes.Core\obj\Release\net8.0\AzanTimes.Core.dll
+C:\Users\technical1\Projects\AzanTimes\src\AzanTimes.Core\obj\Release\net8.0\refint\AzanTimes.Core.dll
+C:\Users\technical1\Projects\AzanTimes\src\AzanTimes.Core\obj\Release\net8.0\ref\AzanTimes.Core.dll

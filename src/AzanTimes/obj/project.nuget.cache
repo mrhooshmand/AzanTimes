@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "6Tw8DklMVLQ=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\technical1\\Projects\\AzanTimes\\src\\AzanTimes\\AzanTimes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\technical1\\AppData\\Local\\Temp\\cursor-sandbox-cache\\9e589cca9a4b40cb1a3da86015d100d1\\nuget\\microsoft.net.illink.tasks\\8.0.33\\microsoft.net.illink.tasks.8.0.33.nupkg.sha512",
+    "C:\\Users\\technical1\\AppData\\Local\\Temp\\cursor-sandbox-cache\\9e589cca9a4b40cb1a3da86015d100d1\\nuget\\microsoft.netcore.app.runtime.win-x64\\8.0.33\\microsoft.netcore.app.runtime.win-x64.8.0.33.nupkg.sha512",
+    "C:\\Users\\technical1\\AppData\\Local\\Temp\\cursor-sandbox-cache\\9e589cca9a4b40cb1a3da86015d100d1\\nuget\\microsoft.windowsdesktop.app.runtime.win-x64\\8.0.33\\microsoft.windowsdesktop.app.runtime.win-x64.8.0.33.nupkg.sha512",
+    "C:\\Users\\technical1\\AppData\\Local\\Temp\\cursor-sandbox-cache\\9e589cca9a4b40cb1a3da86015d100d1\\nuget\\microsoft.aspnetcore.app.runtime.win-x64\\8.0.33\\microsoft.aspnetcore.app.runtime.win-x64.8.0.33.nupkg.sha512"
+  ],
+  "logs": []
+}

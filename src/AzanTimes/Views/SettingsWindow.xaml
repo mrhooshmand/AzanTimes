@@ -1,0 +1,58 @@
+<Window x:Class="AzanTimes.Views.SettingsWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="تنظیمات AzanTimes"
+        Width="480"
+        SizeToContent="Height"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        FlowDirection="RightToLeft"
+        FontFamily="Segoe UI"
+        FontSize="14"
+        Background="#F3F4F6">
+    <StackPanel Margin="20">
+        <Border Style="{StaticResource Card}">
+            <StackPanel>
+                <TextBlock Text="شهر" Style="{StaticResource SectionTitle}" />
+                <ComboBox x:Name="CityBox"
+                          Margin="0,10,0,0"
+                          MinHeight="32"
+                          DisplayMemberPath="Name" />
+            </StackPanel>
+        </Border>
+
+        <Border Style="{StaticResource Card}">
+            <StackPanel>
+                <TextBlock Text="پاپ‌آپ" Style="{StaticResource SectionTitle}" />
+                <CheckBox x:Name="PopupEnabledBox" Content="نمایش پاپ‌آپ سر وقت" Margin="0,12,0,10" />
+                <TextBlock Text="کدام وقت‌ها" Foreground="#656D76" FontSize="12" />
+                <UniformGrid x:Name="EventGrid" Columns="2" Margin="0,8,0,0" />
+            </StackPanel>
+        </Border>
+
+        <Border Style="{StaticResource Card}">
+            <StackPanel>
+                <TextBlock Text="ویجت" Style="{StaticResource SectionTitle}" />
+                <CheckBox x:Name="WidgetVisibleBox" Content="نمایش روی دسکتاپ" Margin="0,12,0,8" />
+                <CheckBox x:Name="TopmostBox" Content="همیشه روی پنجره‌ها" Margin="0,0,0,8" />
+                <CheckBox x:Name="StartupBox" Content="اجرا همراه با روشن شدن ویندوز" />
+            </StackPanel>
+        </Border>
+
+        <TextBlock Text="روش محاسبه: مؤسسه ژئوفیزیک دانشگاه تهران. اختلاف حدود یک دقیقه با جدول‌های گردشده طبیعی است."
+                   Foreground="#656D76"
+                   FontSize="12"
+                   TextWrapping="Wrap"
+                   Margin="4,0,4,16" />
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="Left">
+            <Button Content="ذخیره"
+                    Style="{StaticResource PrimaryButton}"
+                    IsDefault="True"
+                    Click="Save_Click" />
+            <Button Content="انصراف"
+                    Style="{StaticResource SecondaryButton}"
+                    IsCancel="True" />
+        </StackPanel>
+    </StackPanel>
+</Window>
